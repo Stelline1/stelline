@@ -20,12 +20,6 @@ header
     padding-right: 300px;
 }
 
-html body header h1 
-{
-    color: cyan; /* 원하는 글자색 */
-    text-decoration: none; /* 밑줄 제거 */
-}
-
 /* h1 태그 내부의 a 태그 스타일 */
 html body header h1 a 
 {
