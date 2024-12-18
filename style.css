@@ -32,13 +32,6 @@ html body header h1 a
     color: cyan; /* 원하는 글자색 */
     text-decoration: none; /* 밑줄 제거 */
 }
-  
-  /* hover 시 스타일 (선택적) */
-html body header h1 a:hover 
-{
-    color: lightcyan; /* 마우스 오버 시 색상 변경 (선택적) */
-    text-decoration: none; /* 마우스 오버 시 밑줄 제거 (선택적) */
-}
 
 nav 
 {
