@@ -1,26 +1,90 @@
-body {
-    color: #0FF;
-    background-color: #000;
-    font-family: sans-serif;
+body 
+{
+    color: white;
+    background-color: black;
+    font-family: 'Noto Sans', sans-serif; /* For English */
     margin: 0;
     padding: 0;
 }
-
-header {
-    background-color: #000;
-    padding: 20px;
+  
+header 
+{
+    color: cyan; /* Cyan color */
+    background-color: black;
+    font-family: 'Noto Sans', sans-serif; /* For English */
+    display: flex;
+    justify-content: flex-start; /* Align logo to the left */
+    align-items: center;
+    width: auto;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
-nav ul {
+html body header h1 
+{
+    color: cyan; /* 원하는 글자색 */
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+/* h1 태그 내부의 a 태그 스타일 */
+html body header h1 a 
+{
+    color: cyan; /* 원하는 글자색 */
+    text-decoration: none; /* 밑줄 제거 */
+}
+  
+  /* hover 시 스타일 (선택적) */
+html body header h1 a:hover 
+{
+    color: lightcyan; /* 마우스 오버 시 색상 변경 (선택적) */
+    text-decoration: none; /* 마우스 오버 시 밑줄 제거 (선택적) */
+}
+
+nav 
+{
+    padding-left: 100px;
+}
+  
+  /* Apply Noto Sans Korean for Korean text */
+h2, p 
+{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+  
+nav ul 
+{
     list-style: none;
     padding: 0;
+    margin: 0;
 }
-
-nav li {
+  
+nav li 
+{
     display: inline-block;
+    padding: 0 15px;
     margin-right: 10px;
 }
-
-article {
+  
+nav li a 
+{
+    color: #fff; /* 네비게이션 링크 색상 */
+    text-decoration: none;
+}
+  
+article 
+{
     padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+  
+article h2
+{
+    text-align: center;
+}
+  
+footer 
+{
+    text-align: center;
 }
